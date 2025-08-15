@@ -1,0 +1,114 @@
+﻿body {
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    width: 370px;
+    margin: 80px auto;
+    padding: 36px 28px 28px 28px;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 6px 32px rgba(44, 62, 80, 0.13);
+    border-top: 7px solid #1a6d8f;
+    position: relative;
+}
+
+.login-logo {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #1a6d8f 60%, #3ec6e0 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -55px auto 18px auto;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 22px;
+    color: #1a6d8f;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    border: 1.5px solid #b3c6ff;
+    border-radius: 4px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #f7fafc;
+}
+
+    .login-container input[type="text"]:focus,
+    .login-container input[type="password"]:focus {
+        border-color: #1a6d8f;
+        outline: none;
+        box-shadow: 0 0 6px #1a6d8f33;
+        background: #fff;
+    }
+
+.login-container input[type="submit"],
+.login-container button {
+    width: 100%;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #1a6d8f 0%, #3ec6e0 100%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+    .login-container input[type="submit"]:hover,
+    .login-container button:hover {
+        background: linear-gradient(90deg, #3ec6e0 0%, #1a6d8f 100%);
+        box-shadow: 0 4px 16px rgba(44, 62, 80, 0.13);
+    }
+
+.login-container .forgot-link {
+    display: block;
+    text-align: right;
+    margin-top: 8px;
+    color: #1a6d8f;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+    .login-container .forgot-link:hover {
+        color: #3ec6e0;
+        text-decoration: underline;
+    }
+
+.create-user-link {
+    display: block;
+    text-align: right;
+    margin-top: 6px;
+    color: #1a6d8f;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.create-user-link:hover {
+    color: #3ec6e0;
+    text-decoration: underline;
+}
